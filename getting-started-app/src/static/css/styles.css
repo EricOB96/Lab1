@@ -1,11 +1,11 @@
 body {
-    background-color: green;
+    background-color: #d6fcc4;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: white;
+    background-color: rgb(170, 179, 50);
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
@@ -15,7 +15,7 @@ body {
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em #8b8b8b;
 }
 
 .item.completed {
