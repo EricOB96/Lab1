@@ -68,7 +68,7 @@ function TodoListCard() {
 }
 
 function AddItemForm({ onNewItem }) {
-    const { Form, InputGroup, Button } = ReactBootstrap;
+    const { Form, InputGroup } = ReactBootstrap;
 
     const [newItem, setNewItem] = React.useState('');
     const [submitting, setSubmitting] = React.useState(false);
