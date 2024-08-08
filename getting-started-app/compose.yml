@@ -18,6 +18,7 @@ services:
 
   readonlyapp:
     image: node:18-alpine
+    read_only: true
     command: sh -c "yarn install && yarn run dev"
     ports:
       - 0.0.0.0:80:3000
